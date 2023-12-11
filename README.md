@@ -1,71 +1,106 @@
-# Getting Started with Create React App
+# Credique Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Credique project! This web application is designed to collect possible customers information in intuitive way.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+To get started with the Credique Application project, follow these steps:
 
-### `npm start`
+1. Clone the repository to your local machine.
+2. Install the required dependencies.
+3. Configure the Mongodb database for saving customer information.
+4. Configure hubspot
+5. Run the application locally.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Collecting information from various agents regarding customers or potential customers.
+- Store information for future analysis .
+- Integrated with HubSpot, which is a customer relationship management (CRM) platform that provides a suite of tools for marketing, sales, customer service, and content management.
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Prerequisites
 
-### `npm run build`
+Before you begin, ensure you have the following installed:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js: Download [Node.js](https://nodejs.org/en)
+- An account on [Hubspot](https://www.hubspot.com)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Dependencies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project relies on the following dependencies:
 
-### `npm run eject`
+- React
+- Express
+- Mongoose
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+ git clone https://github.com/Shitikyan/Credique-Application
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Navigate to the directory
 
-## Learn More
+```bash
+cd Credique-Application
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Running the front end
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Install dependence
 
-### Code Splitting
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4. Run the project
 
-### Analyzing the Bundle Size
+```bash
+npm run build
+npm run start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### Making a Progressive Web App
+## Running the back end
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+6. Navigate to the directory which the backend exist
 
-### Advanced Configuration
+```bash
+cd src/api
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+7. Install dependence
 
-### Deployment
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+8. Configure credential (Example can be found at .env.example in api folder)
 
-### `npm run build` fails to minify
+- Set you mongo db database url
+- Set your hubspot account access token
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Assessment-CCC
+9. Run the project
+
+```bash
+npm run build
+npm run start
+```
+
+## Authors
+
+- **Shitikyan Hovhannes**
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
